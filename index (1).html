@@ -303,7 +303,22 @@
         left:14px; right:14px; bottom:14px; text-align:center;
       }
     }
-  </style>
+  </style>.galeria-secundaria {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.galeria-secundaria img {
+  width: 48%;
+  border-radius: 8px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
 </head>
 <body>
   <header class="topbar">
@@ -453,3 +468,26 @@
   </footer>
 </body>
 </html>
+<section class="produtos">
+  <h2>Novidades ALLBE</h2>
+
+  <div class="grid-produtos">
+
+    <div class="produto">
+      <img src="assets/produtos/conjunto-couro-1.jpg" alt="Conjunto em couro open vermelho ALLBE">
+
+      <div class="galeria-secundaria">
+        <img src="assets/produtos/conjunto-couro-2.jpg" alt="Detalhe conjunto couro ALLBE">
+      </div>
+
+      <h3>Conjunto em couro open</h3>
+      <p class="marca">ALLBE LOJA</p>
+      <p class="preco">Consulte valores</p>
+
+      <a href="https://wa.me/5554991314805?text=Oi%2C%20quero%20o%20conjunto%20em%20couro%20open%20da%20ALLBE" target="_blank">
+        Comprar pelo WhatsApp
+      </a>
+    </div>
+
+  </div>
+</section>
